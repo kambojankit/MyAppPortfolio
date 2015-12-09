@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        style="@style/portfolio.TextView"
+        android:text="@string/app_title" />
+
+    <Button
+        style="@style/portfolio.Button"
+        android:text="@string/spotify_streamer"
+        android:textAllCaps="true"
+        android:id="@+id/spotify_btn" />
+
+    <Button
+        style="@style/portfolio.Button"
+        android:text="@string/super_duo1"
+        android:textAllCaps="true"
+        android:id="@+id/scores_btn"/>
+
+    <Button
+        style="@style/portfolio.Button"
+        android:text="@string/super_duo2"
+        android:textAllCaps="true"
+        android:id="@+id/library_btn"/>
+
+    <Button
+        style="@style/portfolio.Button"
+        android:text="@string/build_bigger"
+        android:textAllCaps="true"
+        android:id="@+id/build_btn"/>
+
+    <Button
+        style="@style/portfolio.Button"
+        android:text="@string/reader"
+        android:textAllCaps="true"
+        android:id="@+id/reader_btn"/>
+
+    <Button
+        style="@style/portfolio.Button"
+        android:background="@color/colorButtonRed"
+        android:textColor="@android:color/white"
+        android:text="@string/capstone"
+        android:textAllCaps="true"
+        android:id="@+id/capstone_btn"/>
+
+</LinearLayout>
